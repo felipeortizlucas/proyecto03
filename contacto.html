@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog de cafe</title>
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +12,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Document</title>
   </head>
   <body>
     <header class="header">
@@ -23,32 +24,33 @@
               Blog<span class="logo__bold">DeCafé</span>
             </h1>
           </a>
-          <nav class="navegacion">
-            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
-            <a href="cursos.html" class="navegacion__enlace">Cursos</a>
-            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
-          </nav>
+          <div class="navegacion">
+            <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+            <a class="navegacion__enlace" href="cursos.html">Cursos</a>
+            <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+          </div>
         </div>
       </div>
       <div class="header__texto">
-        <h2 class="no-margin">Blog de café con consejos y cursos</h2>
-        <p class="no-margin">
+        <h2 class="centrar-texto no-margin">
+          Blog de Café con consejos y cursos
+        </h2>
+        <p class="centrar-texto no-margin">
           Aprende de los expertos con las mejores recetas y consejos
         </p>
       </div>
     </header>
-    <main class="contenedor">
-      <h3 class="centrar-texto">Contacto</h3>
+    <div class="contenedor">
+      <h4 class="centrar-texto">Contacto</h4>
       <div class="contacto-bg"></div>
-
       <form class="formulario">
         <div class="campo">
           <label class="campo__label" for="nombre">Nombre</label>
           <input
             class="campo__field"
             type="text"
-            placeholder="Tu Nombre"
             id="nombre"
+            placeholder="Tu Nombre"
           />
         </div>
         <div class="campo">
@@ -56,8 +58,8 @@
           <input
             class="campo__field"
             type="email"
-            placeholder="Tu Email"
             id="email"
+            placeholder="Tu Email"
           />
         </div>
         <div class="campo">
@@ -67,11 +69,9 @@
             id="mensaje"
           ></textarea>
         </div>
-        <div class="campo">
-          <input type="submit" class="boton boton--primario" value="Enviar" />
-        </div>
+        <input class="boton boton--primario" type="submit" value="Enviar" />
       </form>
-    </main>
+    </div>
     <footer class="footer">
       <div class="contenedor">
         <div class="barra">
@@ -80,11 +80,11 @@
               Blog<span class="logo__bold">DeCafé</span>
             </h1>
           </a>
-          <nav class="navegacion">
-            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
-            <a href="cursos.html" class="navegacion__enlace">Cursos</a>
-            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
-          </nav>
+          <div class="navegacion">
+            <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+            <a class="navegacion__enlace" href="cursos.html">Cursos</a>
+            <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+          </div>
         </div>
       </div>
     </footer>
