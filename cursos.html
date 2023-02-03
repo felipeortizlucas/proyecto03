@@ -11,46 +11,47 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/style.css" />
-
+    <link rel="stylesheet" href="/css/style.css"">
     <title>Document</title>
   </head>
   <body>
     <header class="header">
       <div class="contenedor">
         <div class="barra">
-          <a class="logo" href="index.html">
-            <h1 class="logo__nombre no-margin centrar-texto">
-              Blog<span class="logo__bold">DeCafé</span>
+          <a href="index.html">
+            <h1 class="barra__bold no-margin centrar-texto">
+              Blog<span class="barra__normal">DeCafé</span>
             </h1>
           </a>
-          <div class="navegacion">
+          <nav class="navegacion">
             <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
             <a class="navegacion__enlace" href="cursos.html">Cursos</a>
             <a class="navegacion__enlace" href="contacto.html">Contacto</a>
-          </div>
+          </nav>
         </div>
-      </div>
-      <div class="header__texto">
-        <h2 class="centrar-texto no-margin">
-          Blog de Café con consejos y cursos
-        </h2>
-        <p class="centrar-texto no-margin">
-          Aprende de los expertos con las mejores recetas y consejos
-        </p>
+        <div class="header__texto">
+          <h2 class="centrar-texto no-margin">
+            Blog de Café con consejos y cursos
+          </h2>
+          <p class="centrar-texto no-margin">
+            Aprende de los expertos con las mejores recetas y consejos
+          </p>
+        </div>
       </div>
     </header>
     <div class="contenedor">
       <h3 class="centrar-texto">Nuestros proximos cursos</h3>
-      <div class="curso">
-        <img class="curso__imagen" src="/img/curso1.jpg" alt="imagen curso" />
-        <div class="curso__contenido">
+      <div class="cursos">
+        <div class="curso__imagen">
+          <img src="/img/curso1.jpg" alt="curso imagen" />
+        </div>
+        <div class="curso__informacion">
           <h4 class="no-margin">Técnicas de extracción de café</h4>
-          <p class="curso__label">
-            Precio:<span class="curso__info">Gratis</span>
+          <p class="curso__bold">
+            Precio:<span class="curso__normal">Gratis</span>
           </p>
-          <p class="curso__label">Cupo:<span class="curso__info">20</span></p>
-          <p class="curso__parrafo">
+          <p class="curso__bold">Cupo:<span class="curso__normal">20</span></p>
+          <p>
             of type and scrambled it to make a type specimen book. It has
             survived not only five centuries, but also the leap into electronic
             typesetting, remaining essentially unchanged. It was popularised in
@@ -60,15 +61,17 @@
           </p>
         </div>
       </div>
-      <div class="curso">
-        <img class="curso__imagen" src="/img/curso2.jpg" alt="imagen curso" />
-        <div class="curso__contenido">
-          <h4 class="no-margin">Taller para Moler y Tostar Granos</h4>
-          <p class="curso__label">
-            Precio:<span class="curso__info">Gratis</span>
+      <div class="cursos">
+        <div class="curso__imagen">
+          <img src="/img/curso2.jpg" alt="curso imagen" />
+        </div>
+        <div class="curso__informacion">
+          <h4 class="no-margin">Taller para moler y tostar Granos de café</h4>
+          <p class="curso__bold">
+            Precio:<span class="curso__normal">Gratis</span>
           </p>
-          <p class="curso__label">Cupo:<span class="curso__info">20</span></p>
-          <p class="curso__parrafo">
+          <p class="curso__bold">Cupo:<span class="curso__normal">20</span></p>
+          <p>
             of type and scrambled it to make a type specimen book. It has
             survived not only five centuries, but also the leap into electronic
             typesetting, remaining essentially unchanged. It was popularised in
@@ -78,15 +81,17 @@
           </p>
         </div>
       </div>
-      <div class="curso">
-        <img class="curso__imagen" src="/img/curso3.jpg" alt="imagen curso" />
-        <div class="curso__contenido">
-          <h4 class="no-margin">4 Recetas de cafe para principiantes</h4>
-          <p class="curso__label">
-            Precio:<span class="curso__info">Gratis</span>
+      <div class="cursos">
+        <div class="curso__imagen">
+          <img src="/img/curso3.jpg" alt="curso imagen" />
+        </div>
+        <div class="curso__informacion">
+          <h4 class="no-margin">4 Recetas de café para principiantes</h4>
+          <p class="curso__bold">
+            Precio:<span class="curso__normal">Gratis</span>
           </p>
-          <p class="curso__label">Cupo:<span class="curso__info">20</span></p>
-          <p class="curso__parrafo">
+          <p class="curso__bold">Cupo:<span class="curso__normal">20</span></p>
+          <p>
             of type and scrambled it to make a type specimen book. It has
             survived not only five centuries, but also the leap into electronic
             typesetting, remaining essentially unchanged. It was popularised in
@@ -98,20 +103,19 @@
       </div>
     </div>
     <footer class="footer">
-      <div class="contenedor">
-        <div class="barra">
-          <a class="logo" href="index.html">
-            <h1 class="logo__nombre no-margin centrar-texto">
-              Blog<span class="logo__bold">DeCafé</span>
-            </h1>
-          </a>
-          <div class="navegacion">
-            <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
-            <a class="navegacion__enlace" href="cursos.html">Cursos</a>
-            <a class="navegacion__enlace" href="contacto.html">Contacto</a>
-          </div>
-        </div>
+      <div class="barra contenedor">
+        <a href="index.html">
+          <h1 class="barra__bold no-margin centrar-texto">
+            Blog<span class="barra__normal">DeCafé</span>
+          </h1>
+        </a>
+        <nav class="navegacion">
+          <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+          <a class="navegacion__enlace" href="cursos.html">Cursos</a>
+          <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+        </nav>
       </div>
     </footer>
+    <script src="/js/modernizr.js"></script>
   </body>
 </html>
